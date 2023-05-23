@@ -1,0 +1,9 @@
+.container h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    width: 57%;
+}
+
+.container{
+    left: 16%;
+}

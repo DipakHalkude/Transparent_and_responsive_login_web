@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(pexels-suket-dedhia-570026.jpg) no-repeat center center fixed ;
+    background-size: cover;
+}
+
+.container{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 38%;
+}
+
+.container h1{
+    font-size: 40px;
+    border-bottom: 5px solid aquamarine;
+    border-bottom-right-radius: 2px ;
+    border-bottom-left-radius: 2px;
+    margin-bottom: 15px;
+    padding: 13px 0px;
+    display: inline-block;
+    width: 50%;
+    font-family: 'Pangolin', cursive;
+}
+
+.box{
+    width: 100%;
+    border-bottom: 2px solid aquamarine;
+    margin:32px 0px;
+}
+
+ .box input{
+    width: 75%;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    padding: 4px 10px;
+    background: none;
+}
+
+input::placeholder{
+    color: white;
+    font-family: 'Mogra', cursive;
+}
+
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 12ppx 0;
+    padding: 10px 21px;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    font-weight: bold;
+    border-color: aquamarine;
+
+}
+
+
+.box i{
+    width: 25px;
+    text-align: center;
+    padding: 0px 12px;
+}
+
+.btn:hover{
+    color: purple;
+    background: white;
+    opacity: 0.5;
+}
+
